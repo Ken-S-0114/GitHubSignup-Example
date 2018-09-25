@@ -11,13 +11,18 @@
 		848C2D7C58DFFA78354F75A3 /* libPods-GitHubSignup-ExampleUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D60B6A811489F5FAD3CC2391 /* libPods-GitHubSignup-ExampleUITests.a */; };
 		87285853AE8FC1EF2474481B /* libPods-GitHubSignup-ExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB804C01233C52BC98F7E0FB /* libPods-GitHubSignup-ExampleTests.a */; };
 		B258EA3B215A414100DE287C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B258EA3A215A414100DE287C /* AppDelegate.swift */; };
-		B258EA3D215A414100DE287C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B258EA3C215A414100DE287C /* ViewController.swift */; };
+		B258EA3D215A414100DE287C /* GitHubSignupViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B258EA3C215A414100DE287C /* GitHubSignupViewController1.swift */; };
 		B258EA40215A414100DE287C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B258EA3E215A414100DE287C /* Main.storyboard */; };
 		B258EA42215A414100DE287C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B258EA41215A414100DE287C /* Assets.xcassets */; };
 		B258EA45215A414100DE287C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B258EA43215A414100DE287C /* LaunchScreen.storyboard */; };
 		B258EA50215A414100DE287C /* GitHubSignup_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B258EA4F215A414100DE287C /* GitHubSignup_ExampleTests.swift */; };
 		B258EA5B215A414100DE287C /* GitHubSignup_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B258EA5A215A414100DE287C /* GitHubSignup_ExampleUITests.swift */; };
 		B258EA6A215A554400DE287C /* ValidationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B258EA69215A554400DE287C /* ValidationResult.swift */; };
+		B258EA6C215A5B3500DE287C /* GithubSignupViewModel1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B258EA6B215A5B3500DE287C /* GithubSignupViewModel1.swift */; };
+		B258EA70215A5E6100DE287C /* GitHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = B258EA6F215A5E6100DE287C /* GitHub.swift */; };
+		B258EA72215A5FAB00DE287C /* Wireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B258EA71215A5FAB00DE287C /* Wireframe.swift */; };
+		B258EA74215A6A0000DE287C /* DefaultImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B258EA73215A6A0000DE287C /* DefaultImplementations.swift */; };
+		B258EA76215A6FBE00DE287C /* Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = B258EA75215A6FBE00DE287C /* Swift.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +51,7 @@
 		9EB0F398CE93E0E88B0A0FC8 /* Pods-GitHubSignup-ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubSignup-ExampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitHubSignup-ExampleUITests/Pods-GitHubSignup-ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B258EA37215A414100DE287C /* GitHubSignup-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GitHubSignup-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B258EA3A215A414100DE287C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B258EA3C215A414100DE287C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B258EA3C215A414100DE287C /* GitHubSignupViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubSignupViewController1.swift; sourceTree = "<group>"; };
 		B258EA3F215A414100DE287C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B258EA41215A414100DE287C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B258EA44215A414100DE287C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,6 +63,11 @@
 		B258EA5A215A414100DE287C /* GitHubSignup_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubSignup_ExampleUITests.swift; sourceTree = "<group>"; };
 		B258EA5C215A414100DE287C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B258EA69215A554400DE287C /* ValidationResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationResult.swift; sourceTree = "<group>"; };
+		B258EA6B215A5B3500DE287C /* GithubSignupViewModel1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubSignupViewModel1.swift; sourceTree = "<group>"; };
+		B258EA6F215A5E6100DE287C /* GitHub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHub.swift; sourceTree = "<group>"; };
+		B258EA71215A5FAB00DE287C /* Wireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wireframe.swift; sourceTree = "<group>"; };
+		B258EA73215A6A0000DE287C /* DefaultImplementations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultImplementations.swift; sourceTree = "<group>"; };
+		B258EA75215A6FBE00DE287C /* Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift.swift; sourceTree = "<group>"; };
 		C0BEBE26586AC60A203C336D /* Pods-GitHubSignup-ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubSignup-ExampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GitHubSignup-ExampleUITests/Pods-GitHubSignup-ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D60B6A811489F5FAD3CC2391 /* libPods-GitHubSignup-ExampleUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GitHubSignup-ExampleUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB804C01233C52BC98F7E0FB /* libPods-GitHubSignup-ExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GitHubSignup-ExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,7 +151,9 @@
 			children = (
 				B258EA68215A552900DE287C /* Protocols */,
 				B258EA3A215A414100DE287C /* AppDelegate.swift */,
-				B258EA3C215A414100DE287C /* ViewController.swift */,
+				B258EA3C215A414100DE287C /* GitHubSignupViewController1.swift */,
+				B258EA6B215A5B3500DE287C /* GithubSignupViewModel1.swift */,
+				B258EA73215A6A0000DE287C /* DefaultImplementations.swift */,
 				B258EA3E215A414100DE287C /* Main.storyboard */,
 				B258EA41215A414100DE287C /* Assets.xcassets */,
 				B258EA43215A414100DE287C /* LaunchScreen.storyboard */,
@@ -172,6 +184,9 @@
 			isa = PBXGroup;
 			children = (
 				B258EA69215A554400DE287C /* ValidationResult.swift */,
+				B258EA6F215A5E6100DE287C /* GitHub.swift */,
+				B258EA71215A5FAB00DE287C /* Wireframe.swift */,
+				B258EA75215A6FBE00DE287C /* Swift.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -367,7 +382,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B258EA3D215A414100DE287C /* ViewController.swift in Sources */,
+				B258EA74215A6A0000DE287C /* DefaultImplementations.swift in Sources */,
+				B258EA70215A5E6100DE287C /* GitHub.swift in Sources */,
+				B258EA3D215A414100DE287C /* GitHubSignupViewController1.swift in Sources */,
+				B258EA76215A6FBE00DE287C /* Swift.swift in Sources */,
+				B258EA72215A5FAB00DE287C /* Wireframe.swift in Sources */,
+				B258EA6C215A5B3500DE287C /* GithubSignupViewModel1.swift in Sources */,
 				B258EA3B215A414100DE287C /* AppDelegate.swift in Sources */,
 				B258EA6A215A554400DE287C /* ValidationResult.swift in Sources */,
 			);
