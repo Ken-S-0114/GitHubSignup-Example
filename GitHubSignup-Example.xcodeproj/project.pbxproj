@@ -10,6 +10,7 @@
 		830CE8ECD0A2FB8713E8BA3F /* libPods-GitHubSignup-Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F81A41AAA361ED67AF63F11 /* libPods-GitHubSignup-Example.a */; };
 		848C2D7C58DFFA78354F75A3 /* libPods-GitHubSignup-ExampleUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D60B6A811489F5FAD3CC2391 /* libPods-GitHubSignup-ExampleUITests.a */; };
 		87285853AE8FC1EF2474481B /* libPods-GitHubSignup-ExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB804C01233C52BC98F7E0FB /* libPods-GitHubSignup-ExampleTests.a */; };
+		B20D75A4215DF4DC000E1BB8 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20D75A3215DF4DC000E1BB8 /* ActivityIndicator.swift */; };
 		B258EA3B215A414100DE287C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B258EA3A215A414100DE287C /* AppDelegate.swift */; };
 		B258EA3D215A414100DE287C /* GitHubSignupViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B258EA3C215A414100DE287C /* GitHubSignupViewController1.swift */; };
 		B258EA40215A414100DE287C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B258EA3E215A414100DE287C /* Main.storyboard */; };
@@ -49,6 +50,7 @@
 		6201436823D025D9FC105823 /* Pods-GitHubSignup-ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubSignup-ExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GitHubSignup-ExampleTests/Pods-GitHubSignup-ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		6F81A41AAA361ED67AF63F11 /* libPods-GitHubSignup-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GitHubSignup-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EB0F398CE93E0E88B0A0FC8 /* Pods-GitHubSignup-ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubSignup-ExampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitHubSignup-ExampleUITests/Pods-GitHubSignup-ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B20D75A3215DF4DC000E1BB8 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		B258EA37215A414100DE287C /* GitHubSignup-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GitHubSignup-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B258EA3A215A414100DE287C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B258EA3C215A414100DE287C /* GitHubSignupViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubSignupViewController1.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				B258EA3C215A414100DE287C /* GitHubSignupViewController1.swift */,
 				B258EA6B215A5B3500DE287C /* GithubSignupViewModel1.swift */,
 				B258EA73215A6A0000DE287C /* DefaultImplementations.swift */,
+				B20D75A3215DF4DC000E1BB8 /* ActivityIndicator.swift */,
 				B258EA3E215A414100DE287C /* Main.storyboard */,
 				B258EA41215A414100DE287C /* Assets.xcassets */,
 				B258EA43215A414100DE287C /* LaunchScreen.storyboard */,
@@ -389,6 +392,7 @@
 				B258EA72215A5FAB00DE287C /* Wireframe.swift in Sources */,
 				B258EA6C215A5B3500DE287C /* GithubSignupViewModel1.swift in Sources */,
 				B258EA3B215A414100DE287C /* AppDelegate.swift in Sources */,
+				B20D75A4215DF4DC000E1BB8 /* ActivityIndicator.swift in Sources */,
 				B258EA6A215A554400DE287C /* ValidationResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

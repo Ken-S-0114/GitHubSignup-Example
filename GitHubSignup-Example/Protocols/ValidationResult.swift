@@ -6,6 +6,7 @@
 //  Copyright © 2018年 佐藤賢. All rights reserved.
 //
 
+import RxSwift
 import RxCocoa
 
 enum ValidationResult {
@@ -62,3 +63,17 @@ struct ValidationColors {
     static let failedColor = UIColor.red
 }
 
+// 入力値によりValidateメッセージを表示している部分
+extension Reactive where Base: UILabel {
+    var validationResult: Binder<ValidationResult> {
+        // baseはReactiveのBase object
+        // labelはBaseのGenericsがUILabelを継承しているのでUILabelです。
+        // resultはValidationResult型の値です。
+        // ここで上でまとめたenumのextensionで宣言したコンピューテッドプロパティの
+        // textColor、descriptionを利用しています。
+        return Binder(base) { label, result in
+            label.textColor = result.textColor
+            label.text = result.description
+        }
+    }
+}
