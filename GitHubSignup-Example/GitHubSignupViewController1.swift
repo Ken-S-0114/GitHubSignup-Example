@@ -49,7 +49,7 @@ class GitHubSignupViewController1: UIViewController {
             .subscribe(onNext: { [weak self] vaild in
                 self?.signupOutlet.isEnabled = vaild
                 self?.signupOutlet.alpha = vaild ? 1.0 : 0.5
-                })
+            })
             .disposed(by: disposeBag)
         // ユーザー名入力チェック（登録可能ユーザー名か、すでに登録済か）
         viewModel.validatedUsername
@@ -71,6 +71,12 @@ class GitHubSignupViewController1: UIViewController {
         viewModel.signedIn
             .subscribe(onNext: { signedIn in
                 print("User signed in \(signedIn)")
+            })
+            .disposed(by: disposeBag)
+        viewModel.signupEnable
+            .subscribe(onNext: {[weak self] valid in
+                self?.signupOutlet.isEnabled = valid
+                self?.signupOutlet.alpha = valid ? 1.0 : 0.5
             })
             .disposed(by: disposeBag)
     }
