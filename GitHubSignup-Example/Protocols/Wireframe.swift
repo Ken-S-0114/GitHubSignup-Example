@@ -31,7 +31,9 @@ class DefaultWireframe: Wireframe {
             alertView.addAction(UIAlertAction(title: cancelAction.description, style: .cancel) { _ in
                 observer.on(.next(cancelAction))
             })
+
             for action in actions {
+                // AlertViewの何らかのボタンが押された場合に、Observerにnextでイベントが渡す
                 alertView.addAction(UIAlertAction(title: action.description, style: .default) { _ in
                     observer.on(.next(action))
                     })

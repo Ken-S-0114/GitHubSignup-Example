@@ -80,5 +80,19 @@ class GithubSignupViewModel1 {
                 }
         }
         .share(replay: 1)
+
+        signupEnable = Observable.combineLatest(
+                            validatedUsername,
+                            validatedPassword,
+                            validatedPasswordRepeated,
+                            signingIn.asObservable()
+        ) { username, password, repeatPassword, signingIn in
+            username.isValid &&
+            password.isValid &&
+            repeatPassword.isValid &&
+            !signingIn
+        }
+        .distinctUntilChanged()
+        .share(replay: 1)
     }
 }
